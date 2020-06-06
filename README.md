@@ -1,4 +1,4 @@
-# JEC-QA
+# CLAIM
 
 This is the repository of the paper ``How Does NLP Benefit Legal System: A Summary of Legal Artificial Intelligence``. [[pdf](https://arxiv.org/pdf/2004.12158)]
 
@@ -25,10 +25,10 @@ All the codes are in different branches, here is a brief description:
 If you want to use the dataset, please cite the paper like
 
 ```
-@inproceedings{zhong2019jec,
-  title={JEC-QA: A Legal-Domain Question Answering Dataset},
+@inproceedings{zhong2020does,
+  title={How Does NLP Benefit Legal System: A Summary of Legal Artificial Intelligence},
   author={Zhong, Haoxi and Xiao, Chaojun and Tu, Cunchao and Zhang, Tianyang and Liu, Zhiyuan and Sun, Maosong},
-  booktitle={Proceedings of AAAI},
+  booktitle={Proceedings of ACL},
   year={2020},
 }
 ```
