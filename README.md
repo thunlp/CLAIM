@@ -1,34 +1,16 @@
-# JEC-QA
-
-This is the repository of the paper ``How Does NLP Benefit Legal System: A Summary of Legal Artificial Intelligence``. [[pdf](https://arxiv.org/pdf/2004.12158)]
-
-## Content
-
-- [Usage](#Usage)
-- [Reference](#Reference)
+# Element Detection
 
 ## Usage
 
 The framework of this project is constructed according to [pytorch-worker](https://github.com/haoxizhong/pytorch-worker), you can visit the project for more details about usage.
 
-All the codes are in different branches, here is a brief description:
+In the directory ``config/element``, there exists three different directories ``labor,divorce,loan`` representing three parts of the dataset. Besides, in each directory, there exists several config files representing different models:
 
-* Element Detection: In branch [element](https://github.com/thunlp/CLAIM/tree/element).
+* ``bidaf.config``: BIDAF.
+* ``chinese.config``: BERT presented by Google.
+* ``cnn.config``: TextCNN.
+* ``dpcnn.config``: DPCNN.
+* ``lstm.config``: LSTM.
+* ``ms.config``: BERT pretrained on civil documents.
 
-* Legal Judgment Prediction: In branch [ljp](https://github.com/thunlp/CLAIM/tree/ljp).
 
-* Similar Case Matching: In branch [scm](https://github.com/thunlp/CLAIM/tree/scm).
-* Legal Question Answers: In branch [qa](https://github.com/thunlp/CLAIM/tree/qa).
-
-## Reference
-
-If you want to use the dataset, please cite the paper like
-
-```
-@inproceedings{zhong2019jec,
-  title={JEC-QA: A Legal-Domain Question Answering Dataset},
-  author={Zhong, Haoxi and Xiao, Chaojun and Tu, Cunchao and Zhang, Tianyang and Liu, Zhiyuan and Sun, Maosong},
-  booktitle={Proceedings of AAAI},
-  year={2020},
-}
-```
